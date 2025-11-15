@@ -238,7 +238,7 @@ function obtenerDimensionesImagen(rutaImagen) {
   
   return { ancho: ancho, alto: alto, totalPixeles: ancho * alto }; // REEMPLAZAR
 }
-
+//Seccioon 1 completa
 // ============================================
 // SECCIÓN 2: OPERACIONES BÁSICAS (25 puntos)
 // Aplicar álgebra matricial a píxeles
@@ -281,6 +281,7 @@ function ajustarBrillo(matriz, factor) {
    }
   
   return resultado; // REEMPLAZAR
+  // resuelto
 }
 
 /**
