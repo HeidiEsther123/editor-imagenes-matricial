@@ -362,7 +362,7 @@ function convertirEscalaGrises(matriz) {
   
   return resultado; // REEMPLAZAR
 }
-
+// Sección 2 completa
 // ============================================
 // SECCIÓN 3: TRANSFORMACIONES GEOMÉTRICAS (30 puntos)
 // Aplicar operaciones matriciales para transformar
