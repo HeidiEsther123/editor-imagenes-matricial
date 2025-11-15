@@ -1,3 +1,9 @@
+// Alumno: Heidi Esther Peña Betanzos - Tecnológico de Software
+// Matrícula: TSU
+// Mestro : Jorge Javier Pedroza Romero
+// Materia: Fundamentos de Algebra 
+// Fecha: 20/11/2025
+// Grado y grupo: 1° "C"
 /**
  * Script para generar imágenes de prueba
  * Ejecutar con: npm run generar-imagenes
