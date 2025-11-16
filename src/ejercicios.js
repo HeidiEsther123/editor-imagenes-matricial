@@ -525,8 +525,28 @@ function mezclarImagenes(matriz1, matriz2, factor) {
  */
 function aplicarSepia(matriz) {
   // TODO: Implementar filtro sepia
+  const filas = matriz.length;
+  const columnas = matriz[0].length;
+  const resultado = [];
+  for (let i = 0; i < filas; i++) {
+    const fila = [];
+    for (let j = 0; j < columnas; j++) {
+      const {r, g, b, a} = matriz[i][j];
+      const rNuevo = (0.393 * r + 0.769 * g + 0.189 * b);
+      const gNuevo = (0.349 * r + 0.686 * g + 0.168 * b);
+      const bNuevo = (0.272 * r + 0.534 * g + 0.131 * b);
+      fila.push({r: Math.min(255, Math.round(rNuevo)),
+                      g: Math.min(255, Math.round(gNuevo)),
+                      b: Math.min(255, Math.round(bNuevo)),
+                      a: a
+                      });
+
+
+    }
+    resultado.push(fila);
+  }
   
-  return []; // REEMPLAZAR
+  return resultado; // REEMPLAZAR
 }
 
 /**
