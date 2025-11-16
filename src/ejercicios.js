@@ -412,9 +412,13 @@ function voltearHorizontal(matriz) {
  * const invertido = voltearVertical(matriz);
  */
 function voltearVertical(matriz) {
+  const resultado = [];
+  for (let i = matriz.length - 1; i >= 0; i--) {
+    resultado.push([...matriz[i]]);
+  }
   // TODO: Implementar volteo vertical
   
-  return []; // REEMPLAZAR
+  return resultado; // REEMPLAZAR
 }
 
 /**
