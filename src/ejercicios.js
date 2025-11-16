@@ -609,7 +609,7 @@ function detectarBordes(matriz, umbral = 50) {
 
   return resueltado; // REEMPLAZAR
 }
-
+// Sección 4 completa
 // ============================================
 // NO MODIFICAR - Exportación de funciones
 // ============================================
