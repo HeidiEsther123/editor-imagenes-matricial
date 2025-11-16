@@ -457,7 +457,7 @@ function rotar90Grados(matriz) {
   
   return resuelto; // REEMPLAZAR
 }
-
+// Sección 3 completa 
 // ============================================
 // SECCIÓN 4: FILTROS AVANZADOS (25 puntos)
 // Operaciones más complejas
